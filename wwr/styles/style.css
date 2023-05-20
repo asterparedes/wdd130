@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Source+Sans+Pro&display=swap');
+
 body {
     background-color: #EDF6F9;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 #content {
     max-width: 1600px;
@@ -8,6 +14,9 @@ body {
 header {
     background-color: #4B7E79;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .logo {
     width: 80px;
 }
@@ -15,6 +24,7 @@ nav a {
     text-align: center;
     color: #EDF6F9;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #EDF6F9;
@@ -28,6 +38,9 @@ nav a:hover{
 }
 .home-title {
     color: #471323;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color:#471323;
@@ -36,6 +49,10 @@ h4 {
     background-color: #A76D60;
     color: #EDF6F9;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #EDF6F9;
@@ -47,25 +64,47 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #A76D60;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 #background {
     height: 725px;
     background-color: #A76D60;
+    margin-bottom: 100px;
 }
 .msg {
     background-color: #EDF6F9;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 .msg h2 {
     color: #471323;
+    font-family: "Playfair Display", Georgia, serif;
 }
 .msg p {
     color:#471323;
+    padding-bottom: 15px;
+    font-size: .8em;
 }
 footer{
     background-color: #4B7E79;
-    color:#EDF6F9
+    color:#EDF6F9;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -77,4 +116,7 @@ footer a {
 footer a:hover {
     color: #471323;
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
 }
