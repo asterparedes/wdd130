@@ -27,7 +27,7 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 nav a {
     text-align: center;
@@ -124,53 +124,60 @@ footer a:hover {
 footer .social img{
     padding-top: 15px;
 }
+/* For About page */
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    position: relative;
-    opacity: 0.65;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-   
-
+.about-main {
+    color: #2E2532;
+    width: 100%;
+    margin-top: 150px;
 }
-.bgimg-1 {
-background-image: url("hey_its_me.jpg");
-min-height: 100%;
+.about-photo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 250px;
 }
-
-.bgimg-2 {
-background-image: url("about_me_photo.jpg");
-min-height: 400px;
+.about-photo1 {
+    border: 5px solid #B5446E;;
+    border-radius: 4px;
+    margin-right: 50px;
+    padding: 5px;
+    width: 300px;
+    height: 300px; 
+    transform: rotate(-15deg);  
 }
-
-.bgimg-3 {
-background-image: url("hey_its_me.jpg");
-min-height: 400px;
+.about-photo2 {
+    border: 5px solid #B5446E;;
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-top: -50px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    transform: rotate(20deg);  
 }
-
-.caption {
-position: absolute;
-left: 0;
-top: 50%;
-width: 100%;
-text-align: center;
-color: #000;
+.about-msg h1, .about-msg h2 {
+    text-align: center;
+    color: #B5446E;
 }
-
-.caption span.border {
-background-color: #111;
-color: #fff;
-padding: 18px;
-font-size: 25px;
-letter-spacing: 10px;
+.about-msg h1 {
+    padding-top: 100px;
+    font-family: "Archivo Black", Georgia, serif;
+    font-size: 3em;
 }
-
-h3 {
-letter-spacing: 5px;
-text-transform: uppercase;
-font: 20px "Lato", sans-serif;
-color: #111;
+.about-msg h2 {
+    font-size: 1.5em;
+    margin-top: -50px;
+}
+.about-msg p {
+    columns: 100px 2;
+    column-gap: 50px;
+    text-align: left;
+    padding: 20px 60px;
+}
+b {
+    color: #B5446E;
 }
 
 @media screen and (max-width: 900px) {
