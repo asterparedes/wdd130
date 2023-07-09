@@ -124,6 +124,7 @@ footer a:hover {
 footer .social img{
     padding-top: 15px;
 }
+
 /* For About page */
 
 .about-main {
@@ -213,7 +214,4 @@ b {
     footer {
         margin-top: 25px;
     }
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-      }
 }
