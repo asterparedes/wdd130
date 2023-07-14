@@ -188,15 +188,22 @@ b {
 .contact-msg {
     text-align: center;
 }
+
 form {
+    background-image: url(../images/tablet.jpg);
     margin: 0 auto;
     width: 500px;
-    height: 500px;
+    height: 600px;
     padding: 1em;
     border: 2px solid #2E2532;
     border-radius: 1em;
 }
-
+h1 {
+    display: block;
+    font-family: "Archivo Black", Georgia, serif;
+    text-align: center;
+    color: #B5446E;
+}
 ul {
     list-style: none;
     padding: 0;
@@ -204,7 +211,7 @@ ul {
 }
 
 form li + li {
-    margin-top:  1em;
+    margin-top:  1.8em;
 }
 
 label {
@@ -212,6 +219,7 @@ label {
     width: 90px;
     text-align: left;
     font-family: "Archivo Black", Georgia, serif;
+    color: #B5446E;
 }
 
 input, textarea {
@@ -227,11 +235,11 @@ input:focus, textarea:focus {
 
 textarea {
     vertical-align: top;
-    height: 200px;
+    height: 150px;
 }
 
 .button {
-    padding: 20px;
+    padding: 10px;
 }
 
 button {
@@ -243,6 +251,10 @@ button {
     background-color: #FAD6A5;
     border-color: #FFE5D9;
     border-radius: 10px;
+}
+button:hover {
+    background-color: #FFE5D9;
+    color:#B5446E
 }
 
 #feedback {

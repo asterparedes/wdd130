@@ -19,21 +19,14 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/tablet.jpg" alt="Tablet and notebook">
-        </div>
-        <section id="hero-msg">
-            <h1 class="home-title">Contact Me</h1>
-        </section>   
-    </div>
     <main class="contact-main">
         <div class="contact-msg">
-            <p>If you want to chat about a project or have questions, 
-            please fill in the form below.</p>
+            <p>If you want to chat about a project or have questions, <br> 
+            please fill in the form below:</p>
         </div>
         <div id="feedback"></div>
         <form action="-my-handling-form-page" method="post">
+            <h1>Contact Me</h1>
             <ul>
                 <li>
                     <label for="name">Name:</label>
@@ -77,7 +70,7 @@
             // stop the form from doing the default action.
             e.preventDefault();
             // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.innerHTML = 'Hello '+ formElement.name.value +'! Thank you for your message. We will get back with you as soon as possible!';
             // make the feedback element visible.
             feedbackElement.style.display = "block";
             // add a class to move everything down so our message doesn't cover it.
